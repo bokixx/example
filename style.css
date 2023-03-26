@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(starr.jpg);
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    width:1000px;
+    margin: auto;
+    height: 600px;
+    background-color: #fff;
+    padding:4rem 5rem;
+    position: relative;
+    border-radius: 20px;
+    border: 3px solid red;
+
+} 
+.textblock{
+    width: 45%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.textblock .title{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+.textblock .sub-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom: 1.8rem;
+}
+.textblock p{
+    margin-bottom: 1.3rem;
+}
+
+a.btn {
+    border: 1px solid red;
+    color: red;
+    padding: 1.2rem 2.2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 10px;
+}
+.container img{
+    position: absolute;
+    top:16%;
+    right: -15%;
+    border-radius: 150px;
+    height: 100%;
+    border: 3px solid red;
+}
